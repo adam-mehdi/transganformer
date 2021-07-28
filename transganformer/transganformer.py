@@ -22,7 +22,7 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from PIL import Image
 import torchvision
 from torchvision import transforms
-from kornia import filter2D
+from kornia import filter2d
 
 from transganformer.diff_augment import DiffAugment
 from transganformer.version import __version__
